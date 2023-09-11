@@ -109,7 +109,7 @@ def openfile():
 
 
 def input(cell, i):  # input into spreadsheet
-    file = "DYAD_NEW.xlsx"
+    file = "spreadsheet.xlsx"
     workbook = load_workbook(filename=file)
     # open workbook
     sheet = workbook.active
